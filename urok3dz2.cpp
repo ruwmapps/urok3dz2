@@ -41,7 +41,7 @@ int main()
         if (is_start_num == "да") {
             std::cout << "Введите начальное значение счётчика: ";
             std::cin >> start_num;
-            Counter counter(start_num);
+            counter = Counter(start_num);
             break;
         }
         else if (is_start_num == "нет") {            
